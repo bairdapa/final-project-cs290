@@ -6,7 +6,7 @@ templates['post'] = template({"compiler":[7,">= 4.0.0"],"main":function(containe
   return "<div class=\"post\">\r\n	<img class=\"post\" src=\""
     + alias4(((helper = (helper = helpers.url || (depth0 != null ? depth0.url : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"url","hash":{},"data":data}) : helper)))
     + "\"></img>\r\n	<a class=\"post\">"
-    + alias4(((helper = (helper = helpers.caption || (depth0 != null ? depth0.caption : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"caption","hash":{},"data":data}) : helper)))
+    + alias4(((helper = (helper = helpers.postCaption || (depth0 != null ? depth0.postCaption : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"postCaption","hash":{},"data":data}) : helper)))
     + "</a>\r\n</div>";
 },"useData":true});
 })();
