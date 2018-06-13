@@ -1,0 +1,134 @@
+div.header {
+	position: fixed;
+	top: 0px;
+	width: calc(100% - 30px);
+	background-color: #6543af;
+	padding:20px;
+	padding-left:30px;
+	border-bottom: 3px solid white;
+}
+
+p.header {
+	font-family: "Helvetica";
+	color: white;
+	font-size: 30px;
+}
+
+#body {
+	position: fixed;
+	top: 70px;
+	width: calc(100% - 40px);
+	height: calc(100% - 73px);
+	background-color: lightgray;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 20px;
+}
+
+div.post {
+	flex: 0 1 0%;
+	margin: 20px;
+	min-width: 300px;
+	max-width: 300px;
+	min-height: 350px;
+	max-height: 350px;
+	padding: 20px;
+	background-color: #fff;
+}
+
+a.post {
+	font-family: "Helvetica";
+	color: black;
+	font-size: 30px;
+}
+
+img.post {
+	width: 300px;
+	height: 300px;
+	margin-bottom: 15px;
+	border: 1px dotted black;
+}
+
+#new-button {
+	position: fixed;
+	right: 30px;
+	bottom: 30px;
+	height: 60px;
+	width: 60px;
+	border: none;
+	border-radius: 30px;
+	font-size: 50px;
+	font-family: "Helvetica";
+	background-color: #6543af;
+	color: #fff;
+	cursor: pointer;
+}
+
+#new-button:hover {
+	background-color: white;
+	color: #6543af;
+}
+
+p.error404 {
+	margin: 100px;
+	font-family: "Helvetica";
+	color: #6543af;
+	font-size: 300px;
+}
+
+#new-post-background {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+	background-color: rgba(0, 0, 0, 0.85);
+}
+
+#new-post-container {
+	position: absolute;
+	top: 200px;
+	width: 100%;
+	height: calc(100% - 200px);
+	z-index: 2000;
+}
+
+#new-post-div {
+	margin: auto;
+	width: 600px;
+	height: 400px;
+	background-color: white;
+	padding: 40px;
+	text-align: center;
+}
+
+a.new-post {
+	font-family: "Helvetica";
+	color: #6543af;
+	font-size: 40px;
+}
+
+*.hidden {
+	display: none;
+}
+
+#new-post-input-url,
+#new-post-input-caption {
+	font-family: "Helvetica";
+	margin-top: 50px;
+	width: 550px;
+	padding: 10px;
+	font-size: 25px;
+}
+
+#new-post-cancel,
+#new-post-submit {
+	margin: 10px;
+	margin-top: 70px;
+	padding: 5px;
+	width: 270px;
+	font-family: "Helvetica";
+	font-size: 25px;
+	border: 0px;
+}
