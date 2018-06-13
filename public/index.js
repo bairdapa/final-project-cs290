@@ -32,7 +32,7 @@ function addPost(url, caption) {
 	
 	var postHTML = Handlebars.templates.post(postContext);
 	var postContainer = document.getElementById('body');
-	postContainer.insertAdjacentHTML('afterbegin', postHTML);
+	postContainer.insertAdjacentHTML('beforeend', postHTML);
 }
 
 function post(path, url, caption) {
